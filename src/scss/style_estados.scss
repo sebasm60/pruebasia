@@ -1,0 +1,34 @@
+.state_table table {
+  width: 100%;
+}
+.state th {
+  padding: 0.7em;
+  background: #fff;
+  border-radius: 1em;
+  text-align: center;
+  vertical-align:middle;
+}
+.state td {
+  padding: 0.1em;
+  border: 3px solid #ebedef; 
+  text-align: center;
+}
+.state_card {
+  margin-bottom: 0.1rem;
+}
+.state_card-body_row{
+  margin-right: 0px;
+    margin-left: 0px;
+}
+.state_card-body {
+  padding: 0.25rem;
+}
+.state_card-header {
+  padding: 0.25rem;
+}
+.state_table .active {
+  background: #fff;
+}
+.state_table .inactive {
+  background: #ddd;
+}

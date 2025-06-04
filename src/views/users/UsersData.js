@@ -1,0 +1,9 @@
+const usersData = [
+  {id: 0, orden: '901-7489', typePlan: 'CTC', registered: '2018/01/01', medicamento: '77777888', plu: '12399', descripcion: 'HCTZ 20', vigencia: '', status: 'alerta', cantidadAuto: '30', saldoSede: '6590', lote: 'AZ888', cantidadEntrega: '30', numeroEntrega: '2 de 6', MIPRES: '', diasTratamiento: '30', valor: '$13.600', iva: '0', total: '$13.600'},
+  {id: 1, orden: '901-7499', typePlan: 'CTC', registered: '2018/01/01', medicamento: '77777888', plu: '12399', descripcion: 'ATORVASTATINA', vigencia: '', status: '', cantidadAuto: '30', saldoSede: '6590', lote: 'AZ888', cantidadEntrega: '30', numeroEntrega: '2 de 6', MIPRES: '', diasTratamiento: '30', valor: '$13.600', iva: '0', total: '$13.600'},
+  {id: 2, orden: '901-7189', typePlan: 'CTC', registered: '2018/01/01', medicamento: '77777888', plu: '12399', descripcion: 'ACETAMINOFEN', vigencia: 'vigencia', status: '', cantidadAuto: '30', saldoSede: '6590', lote: 'AZ888', cantidadEntrega: '30', numeroEntrega: '2 de 6', MIPRES: '', diasTratamiento: '30', valor: '$13.600', iva: '0', total: '$13.600'},
+  {id: 3, orden: '901-7389', typePlan: 'CTC', registered: '2018/01/01', medicamento: '77777888', plu: '12399', descripcion: 'VALSATRAN 80', vigencia: '', status: 'alerta', cantidadAuto: '30', saldoSede: '6590', lote: 'AZ888', cantidadEntrega: '30', numeroEntrega: '2 de 6', MIPRES: '', diasTratamiento: '30', valor: '$13.600', iva: '0', total: '$13.600'},
+  {id: 4, orden: '901-7119', typePlan: 'CTC', registered: '2018/01/01', medicamento: '77777888', plu: '12399', descripcion: 'HCTZ 20', vigencia: 'vigencia', status: 'alerta', cantidadAuto: '30', saldoSede: '6590', lote: 'AZ888', cantidadEntrega: '30', numeroEntrega: '2 de 6', MIPRES: '', diasTratamiento: '30', valor: '$13.600', iva: '0', total: '$13.600'},
+]
+
+export default usersData

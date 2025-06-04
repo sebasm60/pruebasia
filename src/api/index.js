@@ -1,0 +1,6 @@
+export * from './axiosConfig'
+export * from './getMasters'
+export * from './getPacienteInfo'
+export * from './getMedicamentos'
+export * from './getMedicoInfo'
+export * from './createPaciente'

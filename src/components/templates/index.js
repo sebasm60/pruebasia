@@ -1,0 +1,5 @@
+export * from './DashboardTemplate.jsx'
+export * from './DiespencacionManualTemplate.jsx'
+export * from './DispensacionInterTemplate.jsx'
+export * from './EntregasTemplate.jsx'
+export * from './PendientesTemplate.jsx'

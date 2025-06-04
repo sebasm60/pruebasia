@@ -1,0 +1,174 @@
+{
+  "aseguradora": {
+    "nit": "800088702",
+    "nombre": "EPS Y MEDICINA PREPAGADA SURAMERICANA S.A",
+    "convenio": {
+      "codigo": "1",
+      "nombre": "PBS SUSALUD"
+    },
+    "sistemaOrigen": "SALUDWEB",
+    "dispensador": "900277244",
+    "plan": {
+      "codigo": "1",
+      "nombre": "POS"
+    },
+    "sede": {
+      "codigo": "932",
+      "nombre": "REGIONAL MEDELLIN"
+    }
+  },
+  "paciente": {
+    "documento": {
+      "tipo": "TI",
+      "numero": "1054882095"
+    },
+    "nombre": {
+      "primero": "MARIA",
+      "segundo": "ANTONIA",
+      "primerApellido": "MORALES",
+      "segundoApellido": "CASTAÑO"
+    },
+    "fechaNacimiento": "2013-10-04T00:00:00.000-0500",
+    "genero": "F",
+    "ips": {
+      "direcccion": {
+        "departamento": {
+          "id": "17",
+          "nombre": "CALDAS"
+        },
+        "ciudad": {
+          "id": "17001",
+          "nombre": "MANIZALES"
+        }
+      },
+      "codigo": "1712",
+      "nombre": "INTERCONSULTAS SAS SEDE 1"
+    },
+    "telefono": "8794485",
+    "direccionPrincipal": "CL 32 12-27",
+    "correoElectronico": "maria_castano2@hotmail.com",
+    "clasificacion": {
+      "codigo": "3",
+      "nombre": "BENEFICIARIO"
+    },
+    "planComplementario": {},
+    "marcas": [],
+    "polizaSalud": ""
+  },
+  "formula": {
+    "numero": "932-4336990910",
+    "mipres": "",
+    "preautorizacion": "",
+    "autorizacion": "932-4336990910",
+    "numeroSistemaOrigen": "932-4336990910",
+    "canal": "Institucional",
+    "fechaServicio": "2024-07-03T09:14:21.000-0500",
+    "fechaVencimiento": "2026-04-16T18:01:14.000-0500",
+    "status": "N",
+    "categoria": {
+      "sigla": "B",
+      "codigo": "2",
+      "nombre": "MEDIA"
+    },
+    "cobro": {
+      "tipo": "0",
+      "nombre": "EXENTO",
+      "valor": 0
+    },
+    "actividad": "0",
+    "diagnostico": {
+      "codigo": "J304",
+      "descripcion": "RINITIS ALÉRGICA, NO ESPECIFICADA"
+    },
+    "servicio": {
+      "causa": {
+        "codigo": "8",
+        "nombre": "ENFERMEDAD GENERAL"
+      },
+      "codigo": "2",
+      "nombre": "CONSULTA AMBULATORIA"
+    },
+    "ips": {
+      "codigo": "932",
+      "nombre": "REGIONAL MEDELLIN"
+    },
+    "prestador": {
+      "documento": {
+        "tipo": "CC",
+        "numero": "75081404"
+      },
+      "nombre": {
+        "razonSocial": "",
+        "primero": "CARLOS",
+        "segundo": "MARIO",
+        "primerApellido": "ARBELAEZ",
+        "segundoApellido": "CUERVO"
+      }
+    },
+    "tratamiento": [
+      {
+        "orden": "",
+        "numeroEntrega": "",
+        "producto": {
+          "mapis": "22644",
+          "descripcion": "FUROATO DE FLUTICASONA",
+          "cum": "19986156-01-0R01AD08",
+          "tecnologia": {
+            "tipo": "",
+            "codigo": ""
+          },
+          "concentracion": "27.50 MCG/DOSIS SUSPENSION PARA INHALACION X 120 DOSIS",
+          "cantidadDeEntregas": 1,
+          "numeroEntregaActual": 1
+        },
+        "cantidad": 1,
+        "dosis": {
+          "cantidad": 1.0,
+          "unidad": {
+            "codigo": "15",
+            "nombre": "PUFF (DISPARO)"
+          },
+          "periodo": {
+            "cantidad": 24,
+            "unidad": {
+              "codigo": "4",
+              "nombre": "HORAS"
+            }
+          },
+          "duracion": {
+            "cantidad": 30,
+            "unidad": {
+              "codigo": "3",
+              "nombre": "DIAS "
+            }
+          },
+          "indicacionesEspeciales": ""
+        }
+      }
+    ],
+    "dispensacion": {
+      "alistamientoSucursal": "",
+      "sucursal": "",
+      "domicilio": "",
+      "direccion": {
+        "departamento": {
+          "id": "",
+          "nombre": ""
+        },
+        "municipio": {
+          "id": "",
+          "nombre": ""
+        },
+        "ciudad": {
+          "id": "",
+          "nombre": ""
+        }
+      },
+      "telefono": "",
+      "celular": "",
+      "correoElectronico": "",
+      "franjaHoraria": "",
+      "encargadoRecepcion": ""
+    }
+  }
+}
