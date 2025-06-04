@@ -3,7 +3,7 @@ import axios from 'axios'
 import Swal from 'sweetalert'
 import { transformResponseData } from './helpers'
 
-const API_BASE_URL = process.env.REACT_APP_API_URL;
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 let activeRequests = 0;
 
 const getToken = () => localStorage.getItem('LoginToken');

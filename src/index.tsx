@@ -15,7 +15,7 @@ import { Provider } from 'react-redux'
 import store from './store'
 import { QueryClient, QueryClientProvider } from 'react-query';
 
-React.icons = icons
+(React as any).icons = icons
 const queryClient = new QueryClient({
   defaultOptions: {
     // queries: {
@@ -39,7 +39,7 @@ ReactDOM.render(
     </Provider>
   </QueryClientProvider>,
 
-  document.getElementById('root')
+  document.getElementById('root') as HTMLElement
 );
 
 // If you want your app to work offline and load faster, you can change
