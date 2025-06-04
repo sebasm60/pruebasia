@@ -4,7 +4,7 @@ import { getStyle, hexToRgba } from '@coreui/utils'
 import axios from 'axios';  
 import swal from 'sweetalert'
 
-const apiUrl = process.env.REACT_APP_API_URL; 
+const apiUrl = import.meta.env.VITE_API_URL; 
 const brandSuccess = getStyle('success') || '#4dbd74'
 const brandInfo = getStyle('info') || '#20a8d8'
 const brandDanger = getStyle('danger') || '#f86c6b'
@@ -21,12 +21,12 @@ const MainChartExample = attributes => {
     const data2 = []
     const data3 = []
     const datasend = {
-      idEds: process.env.REACT_APP_FKESTACION,
+      idEds: import.meta.env.VITE_FKESTACION,
       initDatetime:'2021-02-22 00:00:00',
       endDatetime:'2021-02-22 15:00:29'
     }
     
-    let apiName=process.env.REACT_APP_NAMEAPI_LASTSALE+'/HourQTYxProductSales';
+    let apiName=import.meta.env.VITE_NAMEAPI_LASTSALE+'/HourQTYxProductSales';
     axios.post(apiUrl + apiName,datasend,
     { headers: {"Authorization" : `Bearer `+localStorage.getItem('LoginToken')+``}}
     ).then((res) => {

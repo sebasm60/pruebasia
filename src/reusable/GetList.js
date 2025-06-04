@@ -4,7 +4,7 @@ import getOrganizeMessager from 'src/reusable/GetMessager'
 
 export function getListSelect(origen, filter, history, nameid, values) {
     if (origen !== undefined) {
-        const apiUrl = process.env.REACT_APP_API_URL;
+        const apiUrl = import.meta.env.VITE_API_URL;
         var actionOrigen = '';
         if (origen.includes(';')) {
             actionOrigen = origen.split(';')[1];

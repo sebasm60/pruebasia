@@ -13,7 +13,7 @@ const Register = React.lazy(() => import('./views/pages/register/Register'));
 const Page404 = React.lazy(() => import('./views/pages/page404/Page404'));
 const Page500 = React.lazy(() => import('./views/pages/page500/Page500'));
 
-class App extends Component {
+class App extends Component<Record<string, unknown>> {
 
   render() {
     return (
